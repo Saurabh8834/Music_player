@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Player </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="playSong.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="sub-container-1">
+            <h4>Playlist</h4>
+            <div class="head-sub1">
+                <div class="icons-one">
+                    <span class="iconify playlist-icons" data-icon="flat-color-icons:music" data-width="25"
+                        data-height="25"></span>
+                    <span class="iconify playlist-icons" data-icon="fxemoji:opticaldiscicon" style="color: salmon;"
+                        data-width="20" data-height="20"></span>
+                    <span class="iconify playlist-icons" data-icon="logos:engine-yard-icon" style="color: salmon;"
+                        data-width="20" data-height="20"></span>
+                </div>
+                <div class="list-one">
+                    <p>Playlist</p>
+                    <p>Last listening</p>
+                    <p>Recommended</p>
+                </div>
+            </div>
+            <div class="container">
+                <!-- <p>01<span><img src="rough.jpeg" alt=""></span></p> -->
+                <div class="number-list">
+                    <p class="sno">01</p>
+                </div>
+                <div class="song-list">
+                    <img src="/images/covers img/goat.jpg" alt="">
+                    <div class="sub-song-list">
+                        <p class="bold-p">GOAT</p>
+                        <p class="light-p">Sidhu Moose Wala</p>
+                    </div>
+                </div>
+                <div class="action-icons">
+                    <!-- <button><img src="img/play.png" alt=""></button> -->
+                    <!-- <span class="iconify" data-icon="akar-icons:circle-triangle-right" style="color: white;" data-width="70" data-height="70"></span> -->
+                    <!-- <span class="iconify play fa songItemPlay fa-play" data-icon="ant-design:play-circle-twotone" style="color: white;"
+                        data-width="100" data-height="20"></span> -->
+                        <i id="0" class="fa songItemPlay fa-play"></i>
+                </div>
+            </div>
+            <div class="container">
+                <!-- <p>01<span><img src="rough.jpeg" alt=""></span></p> -->
+                <div class="number-list">
+                    <p class="sno">01</p>
+                </div>
+                <div class="song-list">
+                    <img src="images/covers img/kk-al.jpg" alt="">
+                    <div class="sub-song-list">
+                        <p class="bold-p">Alvida</p>
+                        <p class="light-p">kk</p>
+                    </div>
+                </div>
+                <div class="action-icons">
+                    <!-- <span class="iconify play fa songItemPlay fa-play" data-icon="ant-design:play-circle-twotone" style="color: white;"
+                        data-width="100" data-height="20"></span> -->
+                        <i id="1" class="fa songItemPlay fa-play"></i>
+                </div>
+            </div>
+            <div class="container">
+                <!-- <p>01<span><img src="rough.jpeg" alt=""></span></p> -->
+                <div class="number-list">
+                    <p class="sno">03</p>
+                </div>
+                <div class="song-list">
+                    <img src="images/covers img/mankirat.jpg" alt="">
+                    <div class="sub-song-list">
+                        <p class="bold-p">Judge</p>
+                        <p class="light-p">Mankirat Aulakh</p>
+                    </div>
+                </div>
+                <div class="action-icons">
+                    <!-- <span class="iconify play" data-icon="ant-design:play-circle-twotone" style="color: white;"
+                        data-width="100" data-height="20"></span> -->
+                        <i id="2" class="fa songItemPlay fa-play"></i>
+                </div>
+            </div>
+            <div class="container">
+                <!-- <p>01<span><img src="rough.jpeg" alt=""></span></p> -->
+                <div class="number-list">
+                    <p class="sno">04</p>
+                </div>
+                <div class="song-list">
+                    <img src="images/covers img/arijit-sh.jpg" alt="">
+                    <div class="sub-song-list">
+                        <p class="bold-p">Shayad</p>
+                        <p class="light-p">Arijit Singh</p>
+                    </div>
+                </div>
+                <div class="action-icons">
+                    <!-- <span class="iconify play" data-icon="ant-design:play-circle-twotone" style="color: white;"
+                        data-width="100" data-height="20"></span> -->
+                        <i id="3" class="fa songItemPlay fa-play"></i>
+                </div>
+            </div>
+            <div class="container">
+                <!-- <p>01<span><img src="rough.jpeg" alt=""></span></p> -->
+                <div class="number-list">
+                    <p class="sno">05</p>
+                </div>
+                <div class="song-list">
+                    <img src="images/covers img/subh-e.jpg" alt="">
+                    <div class="sub-song-list">
+                        <p class="bold-p">Elevated</p>
+                        <p class="light-p">Subh</p>
+                    </div>
+                </div>
+                <div class="action-icons">
+                    <!-- <span class="iconify play" data-icon="ant-design:play-circle-twotone" style="color: white;"
+                        data-width="100" data-height="20"></span> -->
+                        <i id="4" class="fa songItemPlay fa-play"></i>
+                </div>
+            </div>
+            <div class="container">
+                <!-- <p>01<span><img src="rough.jpeg" alt=""></span></p> -->
+                <div class="number-list">
+                    <p class="sno">06</p>
+                </div>
+                <div class="song-list">
+                    <img src="images/covers img/smw.jpg" alt="">
+                    <div class="sub-song-list">
+                        <p class="bold-p">Signed To God</p>
+                        <p class="light-p">Sidhu Moose Wala</p>
+                    </div>
+                </div>
+                <div class="action-icons">
+                    <!-- <span class="iconify play" data-icon="ant-design:play-circle-twotone" style="color: white;"
+                        data-width="100" data-height="20"></span> -->
+                        <i id="5" class="fa songItemPlay fa-play"></i>
+                </div>
+            </div>
+            <div class="container">
+                <!-- <p>01<span><img src="rough.jpeg" alt=""></span></p> -->
+                <div class="number-list">
+                    <p class="sno">07</p>
+                </div>
+                <div class="song-list">
+                    <img src="images/covers img/subh-ro.jpg" alt="">
+                    <div class="sub-song-list">
+                        <p class="bold-p">Roll In</p>
+                        <p class="light-p">Subh</p>
+                    </div>
+                </div>
+                <div class="action-icons">
+                    <!-- <span class="iconify play" data-icon="ant-design:play-circle-twotone" style="color: white;"
+                        data-width="100" data-height="20"></span> -->
+                        <i id="6" class="fa songItemPlay fa-play"></i>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="sub-container-2">
+            <header>
+                <nav>
+                    <div class="nav-div">
+                        <ul class="sub2-head-ul">
+                            <li><a href="">Discover</a></li>
+                            <li><a href="">My Library</a></li>
+                            <li><a href="">Radio</a></li>
+                        </ul>
+                        <form action="">
+                            <input type="text" placeholder="Search Music" class="sub2-search-input">
+                            <span class="iconify search-icon" data-icon="icon-park-twotone:search"
+                                style="color: black;"></span>
+                        </form>
+                        <div class="logo-div">
+                            <img src="images/img/logo-3.jpg" alt="">
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div class="main-container-1">
+                    <!-- <img class="main-cover" src="/main-cover-image/smw-bg.png" alt=""> -->
+                    <h2>Sidhu Moosewala | KK</h2>
+                    <p class="main-para">Yor were the shadow to my life Did you feel us another start You fade Away
+                        afraid our aim is out of sight wanna see us Alive</p>
+                    <div class="main-btn-container">
+                        
+                        <button id="main-btn1" class="main-btn">PLAY</button>
+                        <button id="main-btn2" class="main-btn">FOLLOW</button>
+                    </div>
+                </div>
+                <!-- insert by other file -->
+                <div class="playlist-nav-container">
+                    <div class="nav-container">
+                        <p>Popular song</p>
+                    </div>
+                    <div class="navigator">
+                        <span id="previous">&#10096;</span>
+                        <span id="next">&#10095;</span>
+                    </div>
+                </div>
+                <div class="main-container-playlist">
+                    <div class="playlist-container">
+                        <img src="images/playlist img/excuses.jpeg" alt="">
+                        <p id="songName" class="song-info">Excuses</p>
+                        <p id="singer" class="song-info">Ap dhillon</p>
+
+                    </div>
+                    <div class="playlist-container">
+                        <img src="images/playlist img/excuses.jpeg" alt="">
+                        <p id="songName" class="song-info">Excuses</p>
+                        <p id="singer" class="song-info">Ap dhillon</p>
+
+                    </div>
+                    <div class="playlist-container">
+                        <img src="images/playlist img/excuses.jpeg" alt="">
+                        <p id="songName" class="song-info">Excuses</p>
+                        <p id="singer" class="song-info">Ap dhillon</p>
+
+                    </div>
+                    <div class="playlist-container">
+                        <img src="images/playlist img/excuses.jpeg" alt="">
+                        <p id="songName" class="song-info">Excuses</p>
+                        <p id="singer" class="song-info">Ap dhillon</p>
+                    </div>
+                    <div class="playlist-container">
+                        <img src="images/playlist img/excuses.jpeg" alt="">
+                        <p id="songName" class="song-info">Excuses</p>
+                        <p id="singer" class="song-info">Ap dhillon</p>
+                    </div>
+
+
+                </div>
+                <!-- 54466666666666666666666666666666666422222222222223453555555555555555344435455646475577 -->
+                <div class="playlist-nav-container-2">
+                    <div class="nav-container-2">
+                        <p>Popular Artists</p>
+                    </div>
+                    <div class="navigator-2">
+                        <span id="previous-2">&#10096;</span>
+                        <span id="next-2">&#10095;</span>
+                    </div>
+                </div>
+                <div class="main-container-playlist-2">
+                    <div class="playlist-container-2">
+                        <img src="images/main-cover-image/SMW-2.png" alt="">
+                    </div>
+                    <div class="playlist-container-2">
+                        <img src="images/main-cover-image/kk.png" alt="">
+                    </div>
+                    <div class="playlist-container-2">
+                        <img src="images/covers/subh-el.jpg" alt="">
+                    </div>
+                    <div class="playlist-container-2">
+                        <img src="images/artist img/arijit.jpg" alt="">
+                    </div>
+                    <div class="playlist-container-2">
+                        <img src="images/covers/excuses.jpeg" alt="">
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="range-container">
+                <input type="range" id="progressBar" value="0" min="0" max="100">
+            </div>
+            <div class="navigation-container">
+                <i class="fa fa-backward" id="previous"></i>
+                <i class="fa fa-play" id="playbtn"></i>
+                <i class="fa fa-forward" id="next"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
