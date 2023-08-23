@@ -1,0 +1,7 @@
+version: "3.2"
+services:
+  my-music-player:
+    container_name: "Music_player_container"
+    image: saurabh8834/music-player
+    ports:
+      - 80:80
